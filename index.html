@@ -18,7 +18,7 @@
       </div>
         <div class="row">
           <input autocomplete="off" type="text" placeholder="Enter Task" id="input-task" />
-          <button  class="button ghost-button" onclick="deleteTask()">
+          <button  class="button ghost-button" onclick="deleteInputValue(event, 'input-task')">
             Clear
           </button>
         </div>
@@ -27,13 +27,13 @@
           <label class="label">Descrition</label>
           <div class="row">
             <textarea rows="5" placeholder="descrition" id="task-descrition"></textarea>
-            <button  class="button ghost-button" onclick="deleteTask()">
+            <button  class="button ghost-button" onclick="deleteInputValue(event, 'task-descrition')">
               Clear
             </button>
           </div>
         </div>
         <div>
-          <button type="submit" class="button primary-button" onclick="handleSubmit(event);addTask()">
+          <button type="submit" class="button primary-button" onclick="addTask(event)">
             Add Item
           </button>
         </div>
