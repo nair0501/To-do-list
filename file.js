@@ -19,6 +19,8 @@ function addTask() {
     alert("please provide task input");
   }
 
+  console.log('test')
+
   const cell3 = row.insertCell(2);
   const taskDesc = textareaDesc.value.trim();
   if (taskDesc !== "") {
