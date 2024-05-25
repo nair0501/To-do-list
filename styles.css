@@ -1,0 +1,165 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+  font-weight: 400;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8;
+  padding: 5rem;
+  margin: 0;
+  color: #292929;
+}
+
+.ghost-button {
+  color: #000;
+  margin-left: 2rem;
+}
+
+.ghost-button:hover {
+  background-color: #989898;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  box-shadow: #494949 0px 0.5rem 0.5rem -0.4rem;
+}
+
+.button {
+  border: none;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.8rem 1rem 0.8rem 1rem;
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+
+.primary-button {
+  border: solid 1px #51dcffd7;
+  color: #000;
+  margin-top: 1.5rem;
+  padding: 1rem 1.2rem 1rem 1.2rem;
+}
+
+.primary-button:hover {
+  background-color: #3f72f4;
+  border: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #fff;
+  box-shadow: #26394d 0px 0.5rem 0.5rem -0.4rem;
+}
+
+.secondary-button {
+  font-size: 0.8rem;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  background-color: #bf1e1e;
+  color: white;
+}
+
+.secondary-button:hover {
+  box-shadow: #26394d 0px 0.5rem 0.5rem -0.4rem; 
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: #bf1e1ee7;
+}
+
+.secondary2-button {
+  font-size: 0.8rem;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  background-color: #dc6a23;
+  color: white;
+}
+.secondary2-button:hover {
+  box-shadow: #26394d 0px 0.5rem 0.5rem -0.4rem; 
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: #dc6a23d5;
+}
+
+.header {
+  font-size: 2rem;
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.container {
+  width: 100%;
+}
+
+#input-task {
+  width: 100%;
+  padding: 1rem;
+  background: transparent;
+  border: solid 1px #7e7e7e;
+}
+
+label,
+input,
+textarea {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  outline: none;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#task-descrition {
+  width: 100%;
+  background: none;
+  resize: none;
+  padding: 1rem;
+}
+
+.label {
+  margin: 2rem 0 1rem 0;
+}
+
+table {
+  margin-top: 5rem;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+}
+
+table,
+th,
+td,
+tr
+{
+  border-top: 1px solid #727272;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 1rem 0 1rem 0;
+}
+
+tr > * {
+  padding-left: 50px;
+}
+
+.padding-left {
+  padding-left: 4rem;
+}

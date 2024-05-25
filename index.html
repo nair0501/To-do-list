@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="file.js" defer></script>
+  <title>Advanced to-do list</title>
+</head>
+
+<body>
+  <div class="container">
+    <h2 class="header">TO DO LIST</h2>
+    <form>
+      <div class="form-content">
+        <label class="label">Task</label>
+      </div>
+        <div class="row">
+          <input autocomplete="off" type="text" placeholder="Enter Task" id="input-task" />
+          <button  class="button ghost-button" onclick="deleteTask()">
+            Clear
+          </button>
+        </div>
+
+        <div class="form-content">
+          <label class="label">Descrition</label>
+          <div class="row">
+            <textarea rows="5" placeholder="descrition" id="task-descrition"></textarea>
+            <button  class="button ghost-button" onclick="deleteTask()">
+              Clear
+            </button>
+          </div>
+        </div>
+        <div>
+          <button type="submit" class="button primary-button" onclick="handleSubmit(event);addTask()">
+            Add Item
+          </button>
+        </div>
+    </form>
+
+    <table id="table">
+      <tr>
+        <th>S.no</th>
+        <th>Task</th>
+        <th>Description</th>
+      </tr>
+
+    </table>
+  </div>
+</body>
+
+</html>
